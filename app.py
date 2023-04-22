@@ -4,7 +4,7 @@ import pickle
 
 model = pickle.load(open('model.pkl', 'rb'))
 
-st.title('What IRIS?')
+st.title('What is IRIS?')
 
 sepal_length = st.slider("Sepal Length ",0.1,5.8)
 sepal_width = st.slider("Sepal Width ",0.1,5.8)
